@@ -1,0 +1,32 @@
+{
+  "name": "mephistools-template",
+  "version": "1.0.0",
+  "description": "A template repository to make it easy to create new mephistools repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "pretest": "npm run lint && require-self",
+    "prepare": "npm install require-self && require-self",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mephistools/mephistools-template.git"
+  },
+  "keywords": [
+    "mephistools",
+    "template"
+  ],
+  "author": "Louis Beaumont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mephistools/mephistools-template/issues"
+  },
+  "homepage": "https://github.com/Mephistools/mephistools-template#readme",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "require-self": "^0.2.3",
+    "standard": "^14.3.4"
+  }
+}
